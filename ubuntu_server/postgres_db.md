@@ -28,6 +28,12 @@ CREATE EXTENSION postgis;
 \c <database_name>;
 ```
 
+## Inspect the tables
+
+```bash
+\dt
+```
+
 ## Delete a database
 
 ```bash
