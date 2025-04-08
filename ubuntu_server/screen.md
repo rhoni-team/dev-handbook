@@ -30,3 +30,19 @@ Ctrl-a n
 ```bash
 Ctrl-a p
 ```
+
+# Session management
+
+**List sessions**
+
+```bash
+screen -ls
+```
+
+**Attach to a session**
+
+```bash
+# the session name is the number that appears in the beginning of the line
+# 1350821.pts-1.rhoni-server -> session name is 1350821
+screen -r <session_name>
+```
